@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+
+
+body{
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Londrina Solid', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+header{
+    background-color: goldenrod;
+    height: 75px;
+}
+
+.leftlink{
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+
+button{
+    border-radius: 5px;
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+
+.leftlink:hover{
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover{
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    color: black;
+    background-color: black;
+}
+
+.imgh{
+    height: 50px;
+    width: 50px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color: white;
+}
+
+.card-header:first-child{
+    color: white;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-header{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: gold;
+}
+
+.navbar-brand{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    display: flex!important;
+    flex-basis: auto;
+}
+
+.collapse:not(.show){
+    display: none;
+}
+
+.navbar-collapse{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.btu:not(:disabled):not(.disabled){
+    cursor: pointer;
+}
+
+.btu{
+    color: black;
+}
+
+.btu{
+    color: black;
+}
+
+.btu{
+    margin-top: 10px;
+}
+
+.btu{
+    color: black;
+}
+
+.text-white{
+    color: #fff!important;
+}
+
+.btu-secondary{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btu {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s;
+}
